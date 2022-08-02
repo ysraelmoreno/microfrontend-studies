@@ -44,10 +44,10 @@ module.exports = {
       name: "pdp",
       filename: "remoteEntry.js",
       remotes: {
-        home: "home@http://localhost:3000/remoteEntry.js",
-        pdp: "pdp@http://localhost:3001/remoteEntry.js",
-        constructor: "constructor@http://localhost:3002/remoteEntry.js",
-        addToCart: "addToCart@http://localhost:3003/remoteEntry.js",
+        home: "home@https://home-mf.netlify.app/remoteEntry.js",
+        pdp: "pdp@https://pdp-mf.netlify.app/remoteEntry.js",
+        cart: "cart@https://cart-mf.netlify.app/remoteEntry.js",
+        addToCart: "addToCart@https://addtocart-mf.netlify.app/remoteEntry.js",
       },
       exposes: {
         "./PdpContent": "./src/PdpContent.jsx",
